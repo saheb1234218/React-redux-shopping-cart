@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Setclickedproduct from '../store/actions/Setclikedproduct';
 import Setproduct from '../store/actions/Setproduct';
 import axios from 'axios';
 import {useDispatch,useSelector} from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Spinner, Carousel, Card,Container,Button,Row,Col} from 'react-bootstrap';
+import {Spinner,Container,Button,Row,Col} from 'react-bootstrap';
 
 
 function Product(props) {
